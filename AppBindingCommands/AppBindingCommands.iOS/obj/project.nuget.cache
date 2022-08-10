@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "H5ILMu8/UG8yThYx+W/z+nOQGvvtp1E6gCk6VlI1KRwcIAvworIs0VsBpvG6mZ9PZg5vGQMe32e9amsLus8G4w==",
+  "success": true,
+  "projectFilePath": "D:\\charlene\\PDAMII\\AppBindingCommands\\AppBindingCommands\\AppBindingCommands.iOS\\AppBindingCommands.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\etechas\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\etechas\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\etechas\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

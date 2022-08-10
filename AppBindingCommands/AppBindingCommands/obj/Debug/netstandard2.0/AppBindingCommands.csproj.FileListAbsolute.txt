@@ -1,0 +1,15 @@
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\bin\Debug\netstandard2.0\AppBindingCommands.deps.json
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\bin\Debug\netstandard2.0\AppBindingCommands.dll
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\bin\Debug\netstandard2.0\AppBindingCommands.pdb
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.csproj.AssemblyReference.cache
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.GeneratedMSBuildEditorConfig.editorconfig
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.AssemblyInfoInputs.cache
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.AssemblyInfo.cs
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.csproj.CoreCompileInputs.cache
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\XamlC.stamp
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.dll
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\refint\AppBindingCommands.dll
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\AppBindingCommands.pdb
+D:\charlene\PDAMII\AppBindingCommands\AppBindingCommands\AppBindingCommands\obj\Debug\netstandard2.0\ref\AppBindingCommands.dll

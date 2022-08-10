@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppBindingCommands.MainPage">
+
+    <StackLayout><!-- Layout de "pilha" -->
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        
+        <Label x:Name="lblInformacoes" Text=""/> <!-- x:Name -> nomear tag para diferencia-las como se fosse um "id"-->
+        <Button x:Name="btnAtualizarInfo" 
+                Text="Atualizar Informações"
+                Clicked="btnAtualizarInfo_Clicked"/>
+        <Entry Text="{Binding Name}" Placeholder="Enter Name"></Entry> <!--campo de texto para a entrada--> 
+        
+        <!-- vai exibir o nome pelo display name -> usa-se essa sintaxe binding para a vinculação de MainPageViewModel com MainPage.-->
+        <Label Text="{Binding DisplayName}" ></Label>
+        <Label Text="{Binding DisplayMessage}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <Button Command="{Binding ShowMessageCommand}" Text="Mensagem" />
+    </StackLayout>
+
+</ContentPage>
