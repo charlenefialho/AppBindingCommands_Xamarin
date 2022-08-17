@@ -19,7 +19,7 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
-        
+        <!-- Maneira antiga onde o método da propiedade Clicked é criado na MainPage-->
         <Label x:Name="lblInformacoes" Text=""/> <!-- x:Name -> nomear tag para diferencia-las como se fosse um "id"-->
         <Button x:Name="btnAtualizarInfo" 
                 Text="Atualizar Informações"
@@ -27,9 +27,14 @@
         <Entry Text="{Binding Name}" Placeholder="Enter Name"></Entry> <!--campo de texto para a entrada--> 
         
         <!-- vai exibir o nome pelo display name -> usa-se essa sintaxe binding para a vinculação de MainPageViewModel com MainPage.-->
+        <!-- Binding interliga uma propiedade que ta no design com uma variavel que ta no Model-->
+        <!-- Forma de chamar as propieades usando binding-->
         <Label Text="{Binding DisplayName}" ></Label>
         <Label Text="{Binding DisplayMessage}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
         <Button Command="{Binding ShowMessageCommand}" Text="Mensagem" />
+        <Button Command="{Binding CountCommand}" Text="Contar Caracteres" />
+        <Button Command="{Binding CleanCommand}" Text="Limpar Campos" />
+        <Button Command="{Binding OptionCommand}" Text="Exibir Opções" />
     </StackLayout>
 
 </ContentPage>

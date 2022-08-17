@@ -10,6 +10,10 @@ namespace AppBindingCommands
         {
             //properties é possivel armazenar uma variel sem precisar declarar ela
             //é usada para o reuso da variavel no app
+            /*OnStart: Chamado quando o aplicativo é iniciado.
+             OnSleep: Chamado sempre que o aplicativo vai para segundo plano.
+             OnResume: Chamado quando o aplicativo é retornado, após ter sido enviado para segundo plano*/
+            
             InitializeComponent();
             DateTime data = DateTime.Now;
             Application.Current.Properties["dtAtual"] = data;
@@ -18,6 +22,7 @@ namespace AppBindingCommands
             MainPage = new MainPage(); //contrução/instancia da mainPage
         }
 
+        //Ciclo de vida do App
         protected override void OnStart()//execução principal
         {
             Application.Current.Properties["AcaoStart"] =
